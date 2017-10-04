@@ -140,8 +140,8 @@ def db_hash(file_name):
     return hasher.hexdigest()
 def Auth():
 
-    APP_KEY = "rau2gzig4yymcs3"
-    APP_SECRET = "pjth4ng9y0idfkc"
+    APP_KEY = ""
+    APP_SECRET = ""
     auth_flow = dropbox.oauth.DropboxOAuth2FlowNoRedirect(APP_KEY, APP_SECRET)
 
     authorize_url = auth_flow.start()
